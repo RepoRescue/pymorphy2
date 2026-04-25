@@ -1,0 +1,20 @@
+[1] Tool returned tokens: ['В', 'Москве', 'работают', 'опытные', 'программисты']
+[1] Lemmas: ['в', 'москва', 'работать', 'опытный', 'программист']
+[1] POS:    ['PREP', 'NOUN', 'VERB', 'ADJF', 'NOUN']
+[2] OpencorporaTag introspection on 'стали' OK: VERB,perf,intr plur,past,indc
+[3] shapes.restore_capitalization OK
+[4] inflect программист -> datv plur = программистам
+[4] inflect Москва -> loct = москве
+USABLE
+[downstream] pymorphy2 source: /home/zhihao/hdd/RepoRescue_Clean/repos/rescue_sonnet/pymorphy2/pymorphy2/__init__.py
+[downstream] forms: {'Программисты': frozenset({'NOUN', 'masc', 'anim', 'nomn', 'plur'}), 'пишут': frozenset({'VERB', 'impf', '3per', 'indc', 'pres', 'plur', 'tran'}), 'программы': frozenset({'femn', 'gent', 'NOUN', 'inan', 'sing'}), 'каждый': frozenset({'accs', 'masc', 'sing', 'inan', 'Apro', 'Subx', 'ADJF'}), 'день': frozenset({'accs', 'NOUN', 'masc', 'inan', 'sing'})}
+[downstream] yargy NOUN matches: ['Москва', 'город']
+[downstream] VERB+NOUN phrases: ['пишут программы']
+DOWNSTREAM_OK
+[hunt] non-cyrillic 'hello' parsed: tag= LATN
+[hunt] long word lemma: невероятный
+[hunt] 5x re-instantiation OK
+[hunt] concurrent results: [('программист', 'программист'), ('Москва', 'москва'), ('работают', 'работать'), ('опытные', 'опытный'), ('стали', 'стать')]
+[hunt] _iter_entry_points('pymorphy2_dicts') -> 1 entries (importlib.metadata path)
+[hunt] DictionaryAnalyzer._get_param_names() = [] (inspect.signature path)
+NO_BUGS_FOUND
